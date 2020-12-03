@@ -18,7 +18,11 @@ let radio = 5;
 let area = numeroPi * (radio * radio);
 
 console.log(
-  "El area de un círculo de radio " + radio + " es de " + area.toFixed(2)
+  "El area de un círculo de radio " +
+    radio +
+    " es de " +
+    area.toFixed(2) +
+    " m2"
 );
 
 /**
